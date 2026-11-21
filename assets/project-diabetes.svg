@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="230" viewBox="0 0 580 230" role="img" aria-label="Diabetes Prediction"><title>Diabetes Prediction</title><style>
+.sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace}
+
+    .pt{font:800 24px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#e2e8f0} .pd{font:500 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#8b95b0}
+    .tg{font:600 12px 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;fill:#e2e8f0} .rp{font:600 12px 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;fill:#8b95b0}
+    </style><defs>
+    <linearGradient id="pdiabetesbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060914"/><stop offset="1" stop-color="#0d1326"/></linearGradient>
+    <linearGradient id="pdiabetesbd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="580" y2="230">
+      <stop offset="0" stop-color="#f472b6"/><stop offset="0.5" stop-color="#f472b6" stop-opacity="0.05"/><stop offset="1" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 290.0 115.0;360 290.0 115.0" dur="6s" repeatCount="indefinite"/></linearGradient>
+    <radialGradient id="pdiabetesgl" cx="0.85" cy="0.2" r="0.6"><stop offset="0" stop-color="#f472b6" stop-opacity="0.22"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+    <clipPath id="pdiabetescl"><rect width="580" height="230" rx="18"/></clipPath>
+    <filter id="pdiabetesg" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <g clip-path="url(#pdiabetescl)">
+      <rect width="580" height="230" fill="url(#pdiabetesbg)"/><rect width="580" height="230" fill="url(#pdiabetesgl)"/>
+      <text x="30" y="40" class="rp"><tspan fill="#f472b6">◆</tspan> MEHTABSINGH1/diabetes-prediction-ml</text>
+      <text x="30" y="80" class="pt">Diabetes Prediction</text>
+      <text x="30" y="114" class="pd">LogReg / Random Forest / SVM classifier on</text>
+      <text x="30" y="136" class="pd">glucose, BMI, insulin &amp; age features.</text>
+      <rect x="30" y="172" width="66" height="28" rx="14" fill="#f472b6" fill-opacity="0.10" stroke="#f472b6" stroke-opacity="0.45"/><text x="40" y="190" class="tg">Python</text><rect x="103.6" y="172" width="111" height="28" rx="14" fill="#f472b6" fill-opacity="0.10" stroke="#f472b6" stroke-opacity="0.45"/><text x="113.6" y="190" class="tg">Scikit-learn</text><rect x="222.79999999999998" y="172" width="66" height="28" rx="14" fill="#f472b6" fill-opacity="0.10" stroke="#f472b6" stroke-opacity="0.45"/><text x="232.79999999999998" y="190" class="tg">Pandas</text>
+      <g><path d="M390,70 l30,0 l8,-8 l8,8 l10,0 l6,-38 l8,64 l7,-26 l10,0 l8,-10 l8,10 l40,0" fill="none" stroke="#f472b6" stroke-opacity="0.2" stroke-width="2.5"/>
+        <path d="M390,70 l30,0 l8,-8 l8,8 l10,0 l6,-38 l8,64 l7,-26 l10,0 l8,-10 l8,10 l40,0" fill="none" stroke="#f472b6" stroke-width="2.5" stroke-linejoin="round" stroke-dasharray="80 300" filter="url(#pdiabetesg)">
+          <animate attributeName="stroke-dashoffset" values="80;-300" dur="1.8s" repeatCount="indefinite"/></path></g>
+      <text x="550" y="192" text-anchor="end" class="rp" fill="#f472b6" style="fill:#f472b6">view repo →
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/></text>
+    </g>
+    <rect x="1" y="1" width="578" height="228" rx="18" fill="none" stroke="url(#pdiabetesbd)" stroke-width="2"/>
+    </svg>

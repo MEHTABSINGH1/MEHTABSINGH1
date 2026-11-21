@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Tech stack orbit"><title>Tech stack orbit</title><style>
+.sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace}
+
+    .pill{font:600 14px 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;fill:#e2e8f0}
+    .h{font:700 22px 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;fill:#e2e8f0} .hd{font:500 14px 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;fill:#8b95b0}
+    .core{font:800 30px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#060914}
+    .leg{font:600 12px 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;fill:#8b95b0}
+    </style><defs>
+    <linearGradient id="obg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060914"/><stop offset="1" stop-color="#0d1326"/></linearGradient>
+    <pattern id="ogrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#2a3354" stroke-width="0.6" opacity="0.55"/></pattern>
+    <linearGradient id="oscan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.10"/></linearGradient>
+    <linearGradient id="oedge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/><stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#f472b6"/></linearGradient>
+    <clipPath id="oclip"><rect width="1200" height="560" rx="22"/></clipPath>
+    <filter id="oglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    
+    <radialGradient id="coreG"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#22d3ee"/>
+      <stop offset="0.75" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <filter id="obl" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="40"/></filter>
+    </defs>
+    <g clip-path="url(#oclip)">
+    <rect width="1200" height="560" fill="url(#obg)"/>
+    <rect width="1200" height="560" fill="url(#ogrid)"/>
+    <rect x="0" y="-120" width="1200" height="120" fill="url(#oscan)">
+      <animate attributeName="y" values="-120;560" dur="6s" repeatCount="indefinite"/></rect>
+    <ellipse cx="600" cy="300" rx="420" ry="160" fill="#a78bfa" opacity="0.12" filter="url(#obl)"/><ellipse cx="600" cy="300" rx="210" ry="72" fill="none" stroke="#22d3ee" stroke-opacity="0.28" stroke-width="1.2" stroke-dasharray="4 7"><animate attributeName="stroke-dashoffset" values="0;-110" dur="6s" repeatCount="indefinite"/></ellipse><ellipse cx="600" cy="300" rx="360" ry="132" fill="none" stroke="#a78bfa" stroke-opacity="0.28" stroke-width="1.2" stroke-dasharray="4 7"><animate attributeName="stroke-dashoffset" values="0;-110" dur="6s" repeatCount="indefinite"/></ellipse><ellipse cx="600" cy="300" rx="530" ry="205" fill="none" stroke="#f472b6" stroke-opacity="0.28" stroke-width="1.2" stroke-dasharray="4 7"><animate attributeName="stroke-dashoffset" values="0;-110" dur="6s" repeatCount="indefinite"/></ellipse>
+    <circle cx="600" cy="300" r="70" fill="url(#coreG)" opacity="0.5">
+      <animate attributeName="r" values="60;82;60" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="600" cy="300" r="44" fill="#22d3ee"/>
+    <circle cx="600" cy="300" r="44" fill="none" stroke="#fff" stroke-opacity="0.6" stroke-width="2">
+      <animate attributeName="r" values="44;90" dur="2.4s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values="0.6;0" dur="2.4s" repeatCount="indefinite"/></circle>
+    <text x="600" y="310" text-anchor="middle" class="core">AI</text>
+    
+            <g><animateMotion dur="22s" begin="0.00s" repeatCount="indefinite" path="M390,300 a210,72 0 1,0 420,0 a210,72 0 1,0 -420,0"/>
+              <rect x="-39.8" y="-15" width="79.6" height="30" rx="15" fill="#060914" stroke="#22d3ee" stroke-width="1.4"/>
+              <circle cx="-26.8" cy="0" r="3.5" fill="#22d3ee"/>
+              <text x="-17.8" y="5" class="pill">Python</text></g>
+            <g><animateMotion dur="22s" begin="-5.50s" repeatCount="indefinite" path="M390,300 a210,72 0 1,0 420,0 a210,72 0 1,0 -420,0"/>
+              <rect x="-44.1" y="-15" width="88.2" height="30" rx="15" fill="#060914" stroke="#22d3ee" stroke-width="1.4"/>
+              <circle cx="-31.1" cy="0" r="3.5" fill="#22d3ee"/>
+              <text x="-22.1" y="5" class="pill">PyTorch</text></g>
+            <g><animateMotion dur="22s" begin="-11.00s" repeatCount="indefinite" path="M390,300 a210,72 0 1,0 420,0 a210,72 0 1,0 -420,0"/>
+              <rect x="-57.0" y="-15" width="114.0" height="30" rx="15" fill="#060914" stroke="#22d3ee" stroke-width="1.4"/>
+              <circle cx="-44.0" cy="0" r="3.5" fill="#22d3ee"/>
+              <text x="-35.0" y="5" class="pill">TensorFlow</text></g>
+            <g><animateMotion dur="22s" begin="-16.50s" repeatCount="indefinite" path="M390,300 a210,72 0 1,0 420,0 a210,72 0 1,0 -420,0"/>
+              <rect x="-65.6" y="-15" width="131.2" height="30" rx="15" fill="#060914" stroke="#22d3ee" stroke-width="1.4"/>
+              <circle cx="-52.6" cy="0" r="3.5" fill="#22d3ee"/>
+              <text x="-43.6" y="5" class="pill">Scikit-learn</text></g>
+            <g><animateMotion dur="34s" begin="0.00s" repeatCount="indefinite" path="M240,300 a360,132 0 1,0 720,0 a360,132 0 1,0 -720,0"/>
+              <rect x="-52.7" y="-15" width="105.4" height="30" rx="15" fill="#060914" stroke="#a78bfa" stroke-width="1.4"/>
+              <circle cx="-39.7" cy="0" r="3.5" fill="#a78bfa"/>
+              <text x="-30.7" y="5" class="pill">LangChain</text></g>
+            <g><animateMotion dur="34s" begin="-4.86s" repeatCount="indefinite" path="M240,300 a360,132 0 1,0 720,0 a360,132 0 1,0 -720,0"/>
+              <rect x="-65.6" y="-15" width="131.2" height="30" rx="15" fill="#060914" stroke="#a78bfa" stroke-width="1.4"/>
+              <circle cx="-52.6" cy="0" r="3.5" fill="#a78bfa"/>
+              <text x="-43.6" y="5" class="pill">Hugging Face</text></g>
+            <g><animateMotion dur="34s" begin="-9.71s" repeatCount="indefinite" path="M240,300 a360,132 0 1,0 720,0 a360,132 0 1,0 -720,0"/>
+              <rect x="-57.0" y="-15" width="114.0" height="30" rx="15" fill="#060914" stroke="#a78bfa" stroke-width="1.4"/>
+              <circle cx="-44.0" cy="0" r="3.5" fill="#a78bfa"/>
+              <text x="-35.0" y="5" class="pill">OpenAI API</text></g>
+            <g><animateMotion dur="34s" begin="-14.57s" repeatCount="indefinite" path="M240,300 a360,132 0 1,0 720,0 a360,132 0 1,0 -720,0"/>
+              <rect x="-26.9" y="-15" width="53.8" height="30" rx="15" fill="#060914" stroke="#a78bfa" stroke-width="1.4"/>
+              <circle cx="-13.9" cy="0" r="3.5" fill="#a78bfa"/>
+              <text x="-4.9" y="5" class="pill">RAG</text></g>
+            <g><animateMotion dur="34s" begin="-19.43s" repeatCount="indefinite" path="M240,300 a360,132 0 1,0 720,0 a360,132 0 1,0 -720,0"/>
+              <rect x="-39.8" y="-15" width="79.6" height="30" rx="15" fill="#060914" stroke="#a78bfa" stroke-width="1.4"/>
+              <circle cx="-26.8" cy="0" r="3.5" fill="#a78bfa"/>
+              <text x="-17.8" y="5" class="pill">OpenCV</text></g>
+            <g><animateMotion dur="34s" begin="-24.29s" repeatCount="indefinite" path="M240,300 a360,132 0 1,0 720,0 a360,132 0 1,0 -720,0"/>
+              <rect x="-39.8" y="-15" width="79.6" height="30" rx="15" fill="#060914" stroke="#a78bfa" stroke-width="1.4"/>
+              <circle cx="-26.8" cy="0" r="3.5" fill="#a78bfa"/>
+              <text x="-17.8" y="5" class="pill">Pandas</text></g>
+            <g><animateMotion dur="34s" begin="-29.14s" repeatCount="indefinite" path="M240,300 a360,132 0 1,0 720,0 a360,132 0 1,0 -720,0"/>
+              <rect x="-35.5" y="-15" width="71.0" height="30" rx="15" fill="#060914" stroke="#a78bfa" stroke-width="1.4"/>
+              <circle cx="-22.5" cy="0" r="3.5" fill="#a78bfa"/>
+              <text x="-13.5" y="5" class="pill">NumPy</text></g>
+            <g><animateMotion dur="52s" begin="0.00s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-35.5" y="-15" width="71.0" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-22.5" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-13.5" y="5" class="pill">React</text></g>
+            <g><animateMotion dur="52s" begin="-5.20s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-44.1" y="-15" width="88.2" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-31.1" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-22.1" y="5" class="pill">Next.js</text></g>
+            <g><animateMotion dur="52s" begin="-10.40s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-57.0" y="-15" width="114.0" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-44.0" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-35.0" y="5" class="pill">TypeScript</text></g>
+            <g><animateMotion dur="52s" begin="-15.60s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-44.1" y="-15" width="88.2" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-31.1" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-22.1" y="5" class="pill">Node.js</text></g>
+            <g><animateMotion dur="52s" begin="-20.80s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-44.1" y="-15" width="88.2" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-31.1" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-22.1" y="5" class="pill">Express</text></g>
+            <g><animateMotion dur="52s" begin="-26.00s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-44.1" y="-15" width="88.2" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-31.1" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-22.1" y="5" class="pill">MongoDB</text></g>
+            <g><animateMotion dur="52s" begin="-31.20s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-26.9" y="-15" width="53.8" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-13.9" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-4.9" y="5" class="pill">SQL</text></g>
+            <g><animateMotion dur="52s" begin="-36.40s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-39.8" y="-15" width="79.6" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-26.8" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-17.8" y="5" class="pill">Docker</text></g>
+            <g><animateMotion dur="52s" begin="-41.60s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-26.9" y="-15" width="53.8" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-13.9" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-4.9" y="5" class="pill">AWS</text></g>
+            <g><animateMotion dur="52s" begin="-46.80s" repeatCount="indefinite" path="M70,300 a530,205 0 1,0 1060,0 a530,205 0 1,0 -1060,0"/>
+              <rect x="-26.9" y="-15" width="53.8" height="30" rx="15" fill="#060914" stroke="#f472b6" stroke-width="1.4"/>
+              <circle cx="-13.9" cy="0" r="3.5" fill="#f472b6"/>
+              <text x="-4.9" y="5" class="pill">Git</text></g>
+    <text x="40" y="52" class="h"><tspan fill="#f472b6">const</tspan> stack <tspan fill="#8b95b0">=</tspan> <tspan fill="#22d3ee">orbit</tspan>(<tspan fill="#fbbf24">'everything I build with'</tspan>)</text>
+    <circle cx="45" cy="530" r="5" fill="#22d3ee"/><text x="56" y="534" class="leg">ML CORE</text><circle cx="131" cy="530" r="5" fill="#a78bfa"/><text x="142" y="534" class="leg">AI / DATA</text><circle cx="233" cy="530" r="5" fill="#f472b6"/><text x="244" y="534" class="leg">BUILD / SHIP</text></g>
+    <rect x="0.75" y="0.75" width="1198.5" height="558.5" rx="22" fill="none"
+      stroke="url(#oedge)" stroke-opacity="0.55" stroke-width="1.5"/></svg>

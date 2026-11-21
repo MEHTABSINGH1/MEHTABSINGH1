@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="230" viewBox="0 0 580 230" role="img" aria-label="Invoice AI Parser"><title>Invoice AI Parser</title><style>
+.sans{font-family:'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif} .mono{font-family:'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace}
+
+    .pt{font:800 24px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#e2e8f0} .pd{font:500 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif;fill:#8b95b0}
+    .tg{font:600 12px 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;fill:#e2e8f0} .rp{font:600 12px 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, 'Liberation Mono', Menlo, monospace;fill:#8b95b0}
+    </style><defs>
+    <linearGradient id="pinvoicebg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060914"/><stop offset="1" stop-color="#0d1326"/></linearGradient>
+    <linearGradient id="pinvoicebd" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="580" y2="230">
+      <stop offset="0" stop-color="#a78bfa"/><stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.05"/><stop offset="1" stop-color="#a78bfa"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" values="0 290.0 115.0;360 290.0 115.0" dur="6s" repeatCount="indefinite"/></linearGradient>
+    <radialGradient id="pinvoicegl" cx="0.85" cy="0.2" r="0.6"><stop offset="0" stop-color="#a78bfa" stop-opacity="0.22"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></radialGradient>
+    <clipPath id="pinvoicecl"><rect width="580" height="230" rx="18"/></clipPath>
+    <filter id="pinvoiceg" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+    <g clip-path="url(#pinvoicecl)">
+      <rect width="580" height="230" fill="url(#pinvoicebg)"/><rect width="580" height="230" fill="url(#pinvoicegl)"/>
+      <text x="30" y="40" class="rp"><tspan fill="#a78bfa">◆</tspan> MEHTABSINGH1/invoice-ai-parser</text>
+      <text x="30" y="80" class="pt">Invoice AI Parser</text>
+      <text x="30" y="114" class="pd">AI pipeline that reads invoices and pulls</text>
+      <text x="30" y="136" class="pd">structured fields out of messy documents.</text>
+      <rect x="30" y="172" width="96" height="28" rx="14" fill="#a78bfa" fill-opacity="0.10" stroke="#a78bfa" stroke-opacity="0.45"/><text x="40" y="190" class="tg">TypeScript</text><rect x="134.0" y="172" width="50" height="28" rx="14" fill="#a78bfa" fill-opacity="0.10" stroke="#a78bfa" stroke-opacity="0.45"/><text x="144.0" y="190" class="tg">LLMs</text><rect x="192.4" y="172" width="43" height="28" rx="14" fill="#a78bfa" fill-opacity="0.10" stroke="#a78bfa" stroke-opacity="0.45"/><text x="202.4" y="190" class="tg">OCR</text>
+      <g><rect x="436" y="26" width="68" height="88" rx="6" fill="none" stroke="#a78bfa" stroke-width="2"/>
+        <rect x="446" y="40" width="48" height="5" rx="2" fill="#a78bfa" opacity="0.45"/><rect x="446" y="54" width="36" height="5" rx="2" fill="#a78bfa" opacity="0.45"/><rect x="446" y="68" width="44" height="5" rx="2" fill="#a78bfa" opacity="0.45"/><rect x="446" y="82" width="28" height="5" rx="2" fill="#a78bfa" opacity="0.45"/><rect x="446" y="96" width="40" height="5" rx="2" fill="#a78bfa" opacity="0.45"/>
+        <rect x="426" y="26" width="88" height="3" fill="#a78bfa" filter="url(#pinvoiceg)">
+          <animate attributeName="y" values="26;112;26" dur="2.6s" repeatCount="indefinite"/></rect></g>
+      <text x="550" y="192" text-anchor="end" class="rp" fill="#a78bfa" style="fill:#a78bfa">view repo →
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/></text>
+    </g>
+    <rect x="1" y="1" width="578" height="228" rx="18" fill="none" stroke="url(#pinvoicebd)" stroke-width="2"/>
+    </svg>
